@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <input placeholder='请输入获取的内容' bindinput='content' value='{{input_content}}'></input>
+  <text bindtap='click'>获取缓存</text>
+   
+</view>
+<text bindtap='click1'>打印缓存</text>
